@@ -6,9 +6,13 @@ main {
 #lg {
     display: flex;
     width: 10em;
-    position: fixed;
+    position: absolute;
     
 
+}
+#bar{
+    height: 10em;
+    width: 100vw;
 }
 
 
@@ -19,7 +23,7 @@ main {
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
-    height: 70.5em;
+    height: 80em;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
@@ -31,7 +35,7 @@ main {
 #cor1 {
     color: white;
     align-items: center;
-    font-size: 3em;
+    font-size: 2em;
     font-family: Impact, Charcoal, sans-serif;
     line-height: 0em;
 
@@ -40,7 +44,7 @@ main {
 
 #cor2 {
     color: #9A7A7A;
-    font-size: 3.5em;
+    font-size: 3em;
     text-decoration: underline;
 }
 
@@ -48,7 +52,7 @@ main {
 #cor3 {
     color: white;
     align-items: center;
-    font-size: 3em;
+    font-size: 2em;
     font-family: serif;
 }
 
