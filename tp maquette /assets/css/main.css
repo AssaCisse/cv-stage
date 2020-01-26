@@ -15,15 +15,11 @@ main {
 
 }
 
-h1{
-   
+h1,h2 :hover{
+   color: #9A7A7A;
     
     
 }
-h2{
-    
-}
-
 
 /*SECTION ACCUEIL*/
 #accueil {
@@ -85,6 +81,7 @@ h2{
     font-size: 3.5em;
     font-family: serif;
     text-align: center;
+    justify-content: space-between;
 
 
 }
