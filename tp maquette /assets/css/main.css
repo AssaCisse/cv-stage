@@ -2,23 +2,26 @@ main {
     width: 100vw;
 }
 
-/*LOGO*/
-#lg {
+/*SECTION HEADER*/
+#bar{
     display: flex;
-    width: 10em;
-    position: absolute;
-    
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    font-size: 7em;
+    font-family: Impact, Charcoal, sans-serif;
+    color: #5B8D94;
+    height: 10em;
 
 }
-#bar{
-    height: 9em;
-    width: 100vw;   
+
+h1{
+   
+    
+    
 }
-#nom{
-    font-size: 10em;
-    color: #9A7A7A;
-    display: flex;
-    justify-content: flex-end;
+h2{
+    
 }
 
 
@@ -38,15 +41,6 @@ main {
 }
 
 /* SECTION ACCUEIL COORDONNES */
-#cor1 {
-    color: white;
-    align-items: center;
-    font-size: 2em;
-    font-family: Impact, Charcoal, sans-serif;
-    line-height: 0em;
-
-
-}
 
 #cor2 {
     color: #9A7A7A;
@@ -174,7 +168,7 @@ main {
     background: #F7F7F7;
 }
 
-.contact h1 {
+.contact h2 {
     color: #0C083A;
     background: #FFF;
     padding: 20px 0;
