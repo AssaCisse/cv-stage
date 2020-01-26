@@ -1,0 +1,244 @@
+main {
+    width: 100vw;
+}
+
+/*LOGO*/
+#lg {
+    display: flex;
+    width: 10em;
+    position: fixed;
+    
+
+}
+
+
+/*SECTION ACCUEIL*/
+#accueil {
+    display: flex;
+    background-image: url(../img/bgcv.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 70.5em;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: center;
+    align-content: flex-start;
+
+}
+
+/* SECTION ACCUEIL COORDONNES */
+#cor1 {
+    color: white;
+    align-items: center;
+    font-size: 3em;
+    font-family: Impact, Charcoal, sans-serif;
+    line-height: 0em;
+
+
+}
+
+#cor2 {
+    color: #9A7A7A;
+    font-size: 3.5em;
+    text-decoration: underline;
+}
+
+
+#cor3 {
+    color: white;
+    align-items: center;
+    font-size: 3em;
+    font-family: serif;
+}
+
+/*SECTION A PROPOS */
+#apropos {
+    background-color: #090536;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    height: 50em;
+
+}
+
+#photo {
+    border-radius: 50em;
+    width: 40em;
+    height: 40em;
+}
+
+#apropos1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titreapropos {
+    display: flex;
+    color: white;
+    font-size: 3.5em;
+    font-family: serif;
+    text-align: center;
+
+
+}
+
+#texte {
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 2;
+    width: 40em;
+    font-size: 2em;
+    text-align: center;
+    color: white;
+}
+
+
+/*SECTION OUTILS*/
+#outil {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 50em;
+    background-image: url(../img/fleche.png);
+    background-repeat: no-repeat;
+    background-size: 20em;
+    color: white;
+
+
+}
+
+#titreoutil {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 3.5em;
+    text-decoration: underline;
+    color: #0C083A;
+    width: 7em;
+    align-items: center;
+
+
+}
+
+.logooutil {
+    border-color: #0C083A;
+    color: #0C083A;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: flex-end;
+    flex-direction: column;
+    height: 10em;
+    font-size: 1em;
+    border: 1em solid #0C083A;
+}
+
+.nom {
+    display: flex;
+    font-size: 0.3em;
+}
+
+/* SECTION CONTACT*/
+#contact {
+    display: flex;
+    justify-content: center;
+}
+
+#qcontact {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    color: #0C083A;
+}
+
+.contact{
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 4%em;
+    margin: 10px auto;
+    padding: 16px;
+    background: #F7F7F7;
+}
+
+.contact h1 {
+    color: #0C083A;
+    background: #FFF;
+    padding: 20px 0;
+    font-size: 5em;
+    font-weight: 300;
+    text-align: center;
+    margin: -16px -16px 16px -16px;
+}
+
+.contact input[type="text"],
+.contact input[type="date"],
+.contact input[type="datetime"],
+.contact input[type="mail"],
+.contact input[type="number"],
+.contact input[type="search"],
+.contact input[type="time"],
+.contact input[type="url"],
+.contact textarea,
+.contact select {
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 90%;
+    background: #fff;
+    margin-bottom: 4%;
+    border: 1em solid #DFE3D5;
+    padding: 3%;
+    font: 95% Arial, Helvetica, sans-serif;
+    justify-content: center;
+
+}
+
+.contact input[type="text"]:focus,
+.contact input[type="date"]:focus,
+.contact input[type="datetime"]:focus,
+.contact input[type="mail"]:focus,
+.contact input[type="number"]:focus,
+.contact input[type="search"]:focus,
+.contact input[type="time"]:focus,
+.contact input[type="url"]:focus,
+.contact textarea:focus,
+.contact select:focus {
+    box-shadow: 0 0 5px #0C083A;
+    padding: 3%;
+    border: 1px solid #1F0D29;
+
+}
+
+.contact input[type="envoyer"],
+.contact input[type="button"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 90%;
+    padding: 3%;
+    background: #E0E0E0;
+    border-bottom: 2px solid #0C083A;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    justify-content: center;
+
+
+}
+
+.contact input[type="envoyer"]:hover,
+.contact input[type="button"]:hover {
+    background: #9A7A7A;
+}
+
+
+/*RESPONSIVE*/
