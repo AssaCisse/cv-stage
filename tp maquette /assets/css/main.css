@@ -11,8 +11,14 @@ main {
 
 }
 #bar{
-    height: 10em;
-    width: 100vw;
+    height: 9em;
+    width: 100vw;   
+}
+#nom{
+    font-size: 10em;
+    color: #9A7A7A;
+    display: flex;
+    justify-content: flex-end;
 }
 
 
