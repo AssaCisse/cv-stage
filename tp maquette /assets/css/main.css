@@ -94,49 +94,29 @@ h1 {
 
 /*SECTION OUTILS*/
 #outil {
-    justify-content: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: column;
-    height: 50em;
-    background-image: url(../img/fleche.png);
-    background-repeat: no-repeat;
-    background-size: 20em;
-    color: white;
-
-
+height: 40em;
+width: 100vw;
+    
+    
 }
-
-#titreoutil {
-    display: flex;
-    justify-content: flex-end;
-    font-size: 3.5em;
-    text-decoration: underline;
-    color: #0C083A;
-    width: 10em;
-    height: 10em;
-    align-items: center;
-
-
+#titreoutil{
+    color: #090536;
+    font-size: 2em;
+    
 }
-
 .logooutil {
-    border-color: #0C083A;
-    color: #0C083A;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 10em;
-    font-size: 1em;
-    border: 1em solid #0C083A;
+    justify-content: space-between;
+    color: #090536;
+    border: 1em solid #090536;
 }
 
 .nom {
     display: flex;
+    align-content: space-around;
     justify-content: space-between;
-    font-size: 50%;
+    font-size: 0.5em;
 }
 
 /* SECTION CONTACT*/
@@ -209,11 +189,12 @@ h1 {
 .contact textarea:focus,
 .contact select:focus {
     box-shadow: 0 0 5px #0C083A;
-    padding: 3em;
+    padding: 2em;
     border: 1em solid #1F0D29;
 
 }
 
+                   
 .contact input[type="envoyer"],
 .contact input[type="button"] {
     box-sizing: border-box;
@@ -226,8 +207,7 @@ h1 {
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
-    display: flex;
-    align-items: center;
+    
 }
 
 .contact input[type="envoyer"]:hover,
