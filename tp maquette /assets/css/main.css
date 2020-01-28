@@ -96,6 +96,7 @@ h1{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     flex-direction: column;
     height: 50em;
     background-image: url(../img/fleche.png);
@@ -112,7 +113,8 @@ h1{
     font-size: 3.5em;
     text-decoration: underline;
     color: #0C083A;
-    width: 7em;
+    width: 10em;
+    height: 10em;
     align-items: center;
 
 
@@ -135,7 +137,7 @@ h1{
 
 .nom {
     display: flex;
-    font-size: 1em;
+    font-size: 50%;
 }
 
 /* SECTION CONTACT*/
