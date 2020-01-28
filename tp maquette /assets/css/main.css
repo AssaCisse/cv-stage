@@ -4,7 +4,7 @@ main {
 
 /*SECTION HEADER*/
 
-h1{
+h1 {
     font-size: 2.5em;
     display: flex;
     justify-content: center;
@@ -28,10 +28,11 @@ h1{
 }
 
 /* SECTION ACCUEIL COORDONNES */
-#titreaccueil{
-    font-size:3em;
+#titreaccueil {
+    font-size: 3em;
     color: white;
 }
+
 #cor2 {
     color: #9A7A7A;
     font-size: 3em;
@@ -67,7 +68,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 #titreapropos {
@@ -77,7 +78,7 @@ h1{
     font-size: 3em;
     font-family: serif;
     text-align: center;
-    text-decoration:underline;
+    text-decoration: underline;
     justify-content: flex-end;
 }
 
@@ -88,7 +89,7 @@ h1{
     font-size: 2em;
     text-align: center;
     color: white;
-   
+
 }
 
 /*SECTION OUTILS*/
@@ -126,10 +127,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
-    justify-content: flex-end;
-    flex-direction: column;
     height: 10em;
     font-size: 1em;
     border: 1em solid #0C083A;
@@ -137,6 +135,7 @@ h1{
 
 .nom {
     display: flex;
+    justify-content: space-between;
     font-size: 50%;
 }
 
@@ -154,7 +153,7 @@ h1{
     color: #0C083A;
 }
 
-.contact{
+.contact {
     font: 1em Arial, Helvetica, sans-serif;
     max-width: 60em;
     margin: 10px auto;
@@ -196,10 +195,7 @@ h1{
     border: 1em solid #DFE3D5;
     padding: 3%;
     font: 1em Arial, Helvetica, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-
+    
 }
 
 .contact input[type="text"]:focus,
@@ -223,7 +219,7 @@ h1{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    width: 79em;
+    width: 100%;
     padding: 2em;
     background: #E0E0E0;
     border-bottom: 1em solid #0C083A;
@@ -232,14 +228,10 @@ h1{
     border-left-style: none;
     display: flex;
     align-items: center;
-
-
 }
 
 .contact input[type="envoyer"]:hover,
 .contact input[type="button"]:hover {
     background: #FFF;
-    
+
 }
-
-
