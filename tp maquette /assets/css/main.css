@@ -19,7 +19,7 @@ h1 {
 
 #accueil {
     display: flex;
-    background-image: url(../img/bgcv.png);
+    background-image: url(../img/bga.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: cover;
@@ -57,7 +57,7 @@ h1 {
     display: flex;
     flex-flow: row;
     justify-content: space-around;
-    height: 80%;
+    height: 100%;
     width: 100vw;
 
 }
@@ -74,8 +74,8 @@ h1 {
 }
 
 #entretien {
-    width: 30vw;
-    height: 80%;
+    width: 20vw;
+    height: 50%;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
@@ -83,12 +83,13 @@ h1 {
 
 #rentretien {
     position: relative;
-    width: 30vw;
-    height: 80%;
+    width: 20vw;
+    height: 40%;
     display: flex;
     flex-flow: column;
     justify-content: flex-end;
-    top: 300px;
+    transform: scaleX(-1);
+    /*top: 300px;*/
 
 }
 
@@ -104,15 +105,18 @@ h1 {
 
 /*SECTION OUTILS*/
 #outil {
-    height: 40em;
+    height: 70%;
     width: 100vw;
+    background-image: url()
 
 
 }
 
 #titreoutil {
     color: #090536;
-    font-size: 2em;
+    font-size: 4em;
+    width: 40%;
+    height: 20%;
 
 }
 
