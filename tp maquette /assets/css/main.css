@@ -21,9 +21,9 @@ h1 {
     display: flex;
     background-image: url(../img/bga.jpg);
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:center;
     background-size: cover;
-    height: 50em;
+    height: 80%;
     flex-direction: column;
     justify-content: flex-end;
     text-align: center;
