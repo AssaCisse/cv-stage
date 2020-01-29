@@ -1,7 +1,11 @@
 main {
     width: 100vw;
+
 }
 
+/**{
+    border: 1px solid white;
+}
 
 /*SECTION ACCUEIL*/
 h1 {
@@ -51,70 +55,67 @@ h1 {
 #apropos {
     background-color: #090536;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-flow: row;
     justify-content: space-around;
-    height: 80em;
-
-}
-#citation{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height 10em;
-    color: #9A7A7A;
-    font-size: 2em;
-
-}
-
-#photo {
-    border-radius: 50em;
-    width: 30em;
-    height: 30em;
-}
-
-#apropos1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    height: 80%;
     width: 100vw;
 
 }
 
-#titreapropos {
+
+.bulles {
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+
+.reverse {
+    transform: scaleX(-1)
+}
+
+#entretien {
+    width: 30vw;
+    height: 80%;
     display: flex;
-    flex-wrap: wrap;
-    color: white;
-    font-size: 3em;
-    font-family: serif;
-    text-align: center;
-    text-decoration: underline;
+    flex-flow: column;
     justify-content: flex-end;
 }
 
-#texte {
+#rentretien {
+    position: relative;
+    width: 30vw;
+    height: 80%;
     display: flex;
-    flex-wrap: wrap;
-    width: 60em;
-    font-size: 2em;
-    text-align: center;
-    color: white;
+    flex-flow: column;
+    justify-content: flex-end;
+    top: 300px;
 
+}
+
+#citation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height 10px;
+    color: #9A7A7A;
+    font-size: 2em;
 }
 
 /*SECTION OUTILS*/
 #outil {
-height: 40em;
-width: 100vw;
-    
-    
+    height: 40em;
+    width: 100vw;
+
+
 }
-#titreoutil{
+
+#titreoutil {
     color: #090536;
     font-size: 2em;
-    
+
 }
+
 .logooutil {
     display: flex;
     flex-wrap: wrap;
@@ -126,6 +127,7 @@ width: 100vw;
 
 .nom {
     display: flex;
+    flex-flow: row wrap;
     align-content: space-around;
     justify-content: space-between;
     font-size: 0.5em;
@@ -187,7 +189,7 @@ width: 100vw;
     border: 1em solid #DFE3D5;
     padding: 3%;
     font: 1em Arial, Helvetica, sans-serif;
-    
+
 }
 
 .contact input[type="text"]:focus,
@@ -206,7 +208,7 @@ width: 100vw;
 
 }
 
-                   
+
 .contact input[type="envoyer"],
 .contact input[type="button"] {
     box-sizing: border-box;
@@ -219,7 +221,7 @@ width: 100vw;
     border-top-style: none;
     border-right-style: none;
     border-left-style: none;
-    
+
 }
 
 .contact input[type="envoyer"]:hover,
