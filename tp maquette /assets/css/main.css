@@ -10,50 +10,28 @@ main {
 /*SECTION ACCUEIL*/
 h1 {
     font-size: 2.5em;
+    font-family: 
     display: flex;
     justify-content: center;
     color: #3B5D82;
     align-items: flex-end;
 }
 
-
-#accueil {
+#profil{
+   height: 80%;
+    width: 100vw;
     display: flex;
-    background-image: url(../img/bga.jpg);
-    background-repeat: no-repeat;
-    background-position:center;
+    background-image: url(./assetes/img/profil.png);
     background-size: cover;
-    height: 80%;
-    flex-direction: column;
-    justify-content: flex-end;
-    text-align: center;
-    align-content: flex-start;
+    position: static;
 
 }
 
 /* SECTION ACCUEIL COORDONNES */
-#titreaccueil {
-    font-size: 3em;
-    color: white;
-}
 
-#cor2 {
-    color: #090536;
-    font-size: 3em;
-    text-decoration: underline;
-}
-
-
-#cor3 {
-    color: white;
-    align-items: center;
-    font-size: 2em;
-    font-family: serif;
-}
 
 /*SECTION A PROPOS */
 #apropos {
-    background-color: #090536;
     display: flex;
     flex-flow: row;
     justify-content: space-around;
@@ -89,7 +67,7 @@ h1 {
     flex-flow: column;
     justify-content: flex-end;
     transform: scaleX(-1);
-    /*top: 300px;*/
+    top: 300px;
 
 }
 
